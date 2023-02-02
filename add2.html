@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var c = a + b;
+            document.getElementById("ans").value = c;
+        }
+    </script>
+</head>
+<body>
+    <p>Add two numbers by function</p>
+    <p>Enter no. 1 <input type="number" id="num1"></p>
+    <p>Enter no. 2 <input type="number" id="num2"></p>
+    <button onclick="add()">Add</button>
+    <p>Answer : <input type="number" id="ans"></p>
+
+</body>
+</html>
